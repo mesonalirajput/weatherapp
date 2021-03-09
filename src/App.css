@@ -1,0 +1,150 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Sans&display=swap');
+.Fullpage {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../src/assets/weather.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.UpperBox {
+  width: 78%;
+  height: 48%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(52, 52, 200, 1) 0%,
+    rgba(0, 212, 255, 1) 71%
+  );
+  margin-bottom: 23px;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 15px 0px rgba(15, 27, 31, 1);
+  -moz-box-shadow: 5px 5px 15px 0px rgba(15, 27, 31, 1);
+  box-shadow: 5px 5px 15px 0px rgba(15, 27, 31, 1);
+  display: flex;
+  flex-direction: row;
+}
+.CurrentTemp {
+  font-size: 209px;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.LeftUprBox {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 250px;
+  flex:1 */
+  flex: 1;
+  color: #fff;
+}
+.Name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 49px;
+  margin-left: 48px;
+  margin-top: 17px;
+}
+.Date {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 41px;
+  margin-left: 48px;
+}
+.Day {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 41px;
+  margin-left: 48px;
+}
+.Wind {
+  font-family: 'Dosis', sans-serif;
+  font-size: 41px;
+  margin-left: 48px;
+}
+.UpperIcon {
+  margin-top: 7px;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 57px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-right: 14px;
+  color: #fff;
+  flex-direction: column;
+  flex: 1;
+}
+/* .Upriconsubtitle {
+} */
+.LowerBox {
+  width: 78%;
+  height: 30%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(22, 95, 150, 1) 0%,
+    rgba(71, 224, 255, 1) 62%
+  );
+  -webkit-box-shadow: 5px 5px 15px 0px rgba(15, 27, 31, 1);
+  -moz-box-shadow: 5px 5px 15px 0px rgba(15, 27, 31, 1);
+  box-shadow: 5px 5px 15px 0px rgba(15, 27, 31, 1);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.DaysCon {
+  display: flex;
+  flex: 1;
+}
+.wBox {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 35px;
+  color: #fff;
+}
+.tempFull {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.tempsCon {
+  display: flex;
+}
+.inTempCon {
+  display: flex;
+}
+.temp {
+  font-size: 41px;
+  color: #fff;
+  font-family: 'Big Shoulders Display', cursive;
+}
+.SearchContainer {
+  display: flex;
+  margin-left: 48px;
+  margin-top: 30px;
+}
+.SearchInput {
+  padding-right: 97px;
+  padding-left: 17px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.SearchBtn {
+  padding-top: 5px;
+  border-radius: 5px;
+  margin-left: 4px;
+  margin-top: 2px;
+  cursor: pointer;
+}
